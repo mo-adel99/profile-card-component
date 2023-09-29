@@ -11,19 +11,57 @@
   <title>Profile card component</title>
 </head>
 <body>
-  <main>
-    Victor Crest
-    26
-    London
-  
-    80K
-    Followers
-  
-    803K
-    Likes
-  
-    1.4K
-    Photos
+  <main class="d-flex justify-content-center align-items-center vh-100">
+    <div class="w-md-25 shadow-sm bg-light rounded-3 text-center custom-card">
+      <div>
+        <img src="assets/images/bg-pattern-card.svg" class="w-100 rounded-top" alt="card-pattern">
+      </div>
+      <div>
+        <img src="assets/images/image-victor.jpg" class="rounded-circle border border-5 border-light position-absolute translate-middle" alt="profile picture">
+      </div>
+      <div class="mt-5 pt-3">
+        <div class="card-text">
+          <h1 class="text-center">
+            Victor Crest
+            <span>
+              26
+            </span>
+          </h1>
+          <p class="text-center">
+            London
+          </p>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between card-features">
+          <div>
+            <h3>
+              80K
+            </h3>
+            <p>
+              Followers
+            </p>
+          </div>
+
+          <div>
+            <h3>
+              803K
+            </h3>
+            <p>
+              Likes
+            </p>
+          </div>
+
+          <div>
+            <h3>
+              1.4K
+            </h3>
+            <p>
+              Photos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </body>
 </html>

@@ -1,0 +1,68 @@
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--Dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: -40px -320px, 700px 450px;  
+  background-size: 750px, 1000px;
+}
+
+.custom-card {
+  border-radius: .8rem !important;
+  max-width: 350px !important;
+}
+
+.custom-card .w-100 {
+  border-radius: .8rem .8rem 0 0 !important;
+}
+
+.card-text h1 {
+  font-size: 1.2rem;
+  padding-block: .7rem 0;
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+h1 span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: .2rem;
+  color: var(--Dark-gray);
+}
+
+.card-text p {
+  color: var(--Dark-gray);
+  font-size: .85rem;
+  margin-bottom: 1.2rem; 
+}
+
+.card-features {
+  padding: 0.3rem 3rem;
+}
+
+.card-features h3 {
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: .3rem;
+}
+
+.card-features p {
+  color: var(--Dark-gray);
+  font-size: .7rem;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-position: -570px -450px, 140px 450px;  
+    background-size: 800px, 800px;
+    padding-inline: 1.3rem;
+  }
+}
